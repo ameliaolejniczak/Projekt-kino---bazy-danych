@@ -4,8 +4,8 @@ open.my.connection <- function() {
   con <- dbConnect(RPostgres::Postgres(), dbname = 'projekt_kino',
                    host = 'localhost',
                    port = 5432,
-                   user = 'mela',
-                   password = 'ChceJesc52$')
+                   user = 'username',
+                   password = 'password')
   return(con)
 }
 
